@@ -1,4 +1,5 @@
 import React from 'react';
+import Ninjas from './Ninjas';
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
      <h1>My First React App</h1>
      <p>Welcome :)</p>
-       
+      <Ninjas />
     </div>
   );
 }
